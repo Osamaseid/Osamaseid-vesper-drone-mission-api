@@ -1,0 +1,20 @@
+INFO:     Started server process [22032]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56969 - "POST /missions/ HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:56969 - "POST /missions HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:63804 - "POST /missions/ HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:63804 - "POST /missions HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:63808 - "POST /missions/ HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:63808 - "POST /missions HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:63533 - "POST /missions/ HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:63533 - "POST /missions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63540 - "GET /missions/1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54652 - "GET /missions/11 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51630 - "GET /missions/ HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51630 - "GET /missions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50468 - "GET /missions/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50472 - "GET /missions/1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50474 - "GET /missions/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50477 - "PATCH /missions/2 HTTP/1.1" 200 OK
